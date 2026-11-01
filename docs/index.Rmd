@@ -89,13 +89,13 @@ tlf_ctr_badge <- doi_to_badge(tlf_ctr_doi)
 #### Primary publication:
 
 - [Latest version](tlf-book-pp/latest/index.html)
-- [post-dbl-v1.0 version](tlf-book-pp/pre-dbl-v1.0/index.html) 
+- [post-dbl-v1.0 version](tlf-book-pp/post-dbl-v1.0/index.html) 
 
 
 #### Clinical trial report:
 
 - [Latest version](tlf-book-ctr/latest/index.html)
-- [post-dbl-v1.0 version](tlf-book-ctr/pre-dbl-v1.0/index.html) 
+- [post-dbl-v1.0 version](tlf-book-ctr/post-dbl-v1.0/index.html) 
 
 ### Post-hoc analyses
 
