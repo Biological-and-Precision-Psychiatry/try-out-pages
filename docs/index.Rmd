@@ -1,0 +1,127 @@
+---
+output: 
+  html_document:
+  github_document:
+editor_options: 
+  chunk_output_type: console
+---
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23341773.svg)](https://doi.org/10.5281/zenodo.23341773)
+
+
+<!-- The .md file is generated from an .Rmd file. Please edit the .Rmd; not the .md !! -->
+
+
+```{r}
+#| label: setup_index
+#| include: false
+library(gert)
+library(data.table)
+
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+
+```{r}
+#| label: get_urls
+#| include: false
+
+# Get list of Git info:
+info <- gert::git_info()
+
+# Get github-url to repo:
+remotes      <- gert::git_remote_list()
+url          <- remotes$url[remotes$name == "origin"]
+url          <- gsub("\\.git$", "", url)
+pre_dbl_url  <- paste0(url, "/releases/tag/pre-dbl-v1.0")
+post_dbl_url <- paste0(url, "/releases/tag/post-dbl-v1.0")
+commit_url   <- paste0(url, "/tree/", info$commit)
+diff_url     <- paste0(url, "/compare/pre-dbl-v1.0...post-dbl-v1.0")
+citation_url <- paste0(url, "/blob/main/CITATION.cff")
+renvlock_url <- paste0(url, "/blob/main/renv.lock")
+
+# List registered DOIs:
+sap_doi     <- "https://doi.org/10.5281/zenodo.23343482"
+code_doi    <- "https://doi.org/10.5281/zenodo.23341773"
+tlf_pp_doi  <- "https://doi.org/10.5281/zenodo.23350243"
+tlf_ctr_doi <- "https://doi.org/10.5281/zenodo.23349388"
+
+doi_to_badge <- function(doi) 
+  paste0("[![DOI](https://zenodo.org/badge/DOI/", 
+                     gsub("https://doi.org/", "", doi, fixed = TRUE),
+                     ".svg)](", doi, ")")
+sap_badge     <- doi_to_badge(sap_doi)
+code_badge    <- doi_to_badge(code_doi)
+tlf_pp_badge  <- doi_to_badge(tlf_pp_doi)
+tlf_ctr_badge <- doi_to_badge(tlf_ctr_doi)
+```
+
+
+## Welcome to the DEXA-PSYCH website
+
+------------------------------------------------------------------------
+
+> -   [**Primary-Publication**]() (Link will be updated upon publication)
+> -   **EU Trial registration number**:  [2022-501428-45-00](https://euclinicaltrials.eu/ctis-public/view/2022-501428-45-00?lang=en)
+> -   **WHO universal Trial Identifier**: U1111-1280-7614
+> -   [**Trial protocol**](https://euclinicaltrials.eu/ctis-public/view/2022-501428-45-00?lang=en) (latest version)
+> -   [**Trial protocol**](https://doi.org/10.1186/s13063-025-08989-2) (Journal publication of earlier version)
+> -   [**Statistical Analysis Plan**](`r sap_doi`)
+> -   **DEXA-PSYCH team**: 
+>     - [Troels Boldt Rømer](https://orcid.org/0000-0002-0832-2667) (Sub-Investigator)
+>     - [Camilla Goetzsche Frederiksen](https://orcid.org/0000-0002-4475-7617) (Sub-Investigator)
+>     - Pernille Bølling Hansen (Sub-Investigator)
+>     - [Eva Nina Sparre Wandall](https://orcid.org/0009-0008-1745-6027) (Statistician)
+>     - Sille Holst (Research Nurse)
+>     - [Rune Haubo Bojesen Christensen](https://orcid.org/0000-0002-4494-3399) (Trial Statistician)
+>     - [Michael Eriksen Benros](https://orcid.org/0000-0003-4939-9465) (Sponsor and Principal Investigator)
+> -   **Zenodo DOI archives**: 
+>     - [Pre-DBL and post-DBL code](`r code_doi`)
+>     - [Tables, Listings and Figures for primary publication](`r tlf_pp_doi`) (available after primary publication is published)
+>     - [Tables, Listings and Figures for clinical trial report](`r tlf_ctr_doi`) (available after secondary outcomes are published)
+>     - [Statistical Analysis Plan](`r sap_doi`)
+
+------------------------------------------------------------------------
+
+## Trial results
+
+### Pre-specified and pre-programmed tables, listings and figures
+
+#### Primary publication:
+
+- [Latest version](tlf-book-pp/latest/index.html)
+- [post-dbl-v1.0 version](tlf-book-pp/pre-dbl-v1.0/index.html) 
+
+
+#### Clinical trial report:
+
+- [Latest version](tlf-book-ctr/latest/index.html)
+- [post-dbl-v1.0 version](tlf-book-ctr/pre-dbl-v1.0/index.html) 
+
+### Post-hoc analyses
+
+- [Effect modification by age](post-hoc/age/latest/index.html)
+
+
+
+## Table, Listings and Figures books
+
+The code in this repository produces two Tables, Listings, and Figures (TLF) books; a primary publication version and a clinical trial report (CTR) version. 
+All outcomes are reported from day 0 to day 28. Long term follow-up (until 6 months after baseline) will be presented separately.
+
+1. Primary Publication: 
+This version documents all summaries and statistical analyses for safety and efficacy endpoints presented in the primary publication as documented in the SAP and trial protocol. This version is archived in a Zenodo DOI [here](`r tlf_pp_doi`).
+1. Clinical Trial Protocol (CTR): This version includes all content reported in the primary publication version but also presents results for additional secondary outcomes. Contents for the secondary outcomes will be released upon publication of secondary papers presenting the additional secondary outcomes. This version of the TLF-book is archived in a Zenodo DOI [here](`r tlf_ctr_doi`).
+
+The primary publication TLF-book is available [here](https://dexa-psych.netlify.app/) although it is password-protected for reviewer access until the primary publication is published.
+
+
+
+## How to cite this work 
+
+For citation in published works, please cite the primary publication and any relevant DOI given above---citation information is available in each of them. 
+The code base repository also has citation information available in a [CITATION.cff file](`r citation_url`). 
+
+
+
+
+
