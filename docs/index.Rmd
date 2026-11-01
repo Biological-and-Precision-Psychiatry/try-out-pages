@@ -1,6 +1,9 @@
 ---
+pagetitle: "DEXA-PSYCH"
 output: 
   html_document:
+    includes:
+      in_header: favicon.html
   github_document:
 editor_options: 
   chunk_output_type: console
@@ -103,7 +106,7 @@ tlf_ctr_badge <- doi_to_badge(tlf_ctr_doi)
 
 
 
-## Table, Listings and Figures books
+## Comments
 
 The code in this repository produces two Tables, Listings, and Figures (TLF) books; a primary publication version and a clinical trial report (CTR) version. 
 All outcomes are reported from day 0 to day 28. Long term follow-up (until 6 months after baseline) will be presented separately.
@@ -114,12 +117,6 @@ This version documents all summaries and statistical analyses for safety and eff
 
 The primary publication TLF-book is available [here](https://dexa-psych.netlify.app/) although it is password-protected for reviewer access until the primary publication is published.
 
-
-
-## How to cite this work 
-
-For citation in published works, please cite the primary publication and any relevant DOI given above---citation information is available in each of them. 
-The code base repository also has citation information available in a [CITATION.cff file](`r citation_url`). 
 
 
 
