@@ -17,7 +17,7 @@ website:
       - text: "Trial results"
         href: results.qmd
       - text: "Publications"
-        href: publications.qmd
+        href: publications/publications.qmd
       - text: "About"
         href: about.qmd
       - text: "More"

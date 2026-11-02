@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "The DEXA-PSYCH trial",
     "section": "",
-    "text": "The DEXA-PSYCH trial is an investigator-initiated, double-blind, randomized, placebo-controlled, parallel group superiority trial. Three-hundred participants meeting criteria for moderate-to-severe depression were be randomized in a 1:1 ratio to 1 week of either dexamethasone or placebo as add-on treatment to treatment as usual.\n\n\nPer date: 2026-11-02\n\nEnrollment: Done. 300 participants randomized.\nCompletion: Main trial (up to day 28 visit) is complete. Six-month follow-up is on-going.\n\nFor further details, see the timeline.\n\n\n\nDepression is one of the leading causes of years lived with disability, globally. The effects of current pharmacological treatments are small-to-moderate and often delayed by weeks. Immunological disturbances have been associated with depression and meta-analyses have suggested that anti-inflammatory agents have moderate-to-large anti-depressant effects. The largest effects were reported for glucocorticoids. However, previous trials were too small to legitimize standard use of glucocorticoids as add-on treatment in depression.\n\n\n\nThe purpose of the DEXA-PSYCH trial was to investigate the effect and safety of short-term, oral dexamethasone compared to placebo as add-on therapy in moderate-to-severe depression.\n\n\n\nAll pre-specified and pre-programmed trial results are available in Tables, Listings and Figures (TLF) book here. (Link will contain trial results upon publication of the primary)\nFor further details see the trial results page\n\n\n\nThe primary publication of the DEXA-PSYCH trial is available here (Link will go live upon publication of the primary paper.) For more information on publications see here.\n\n\n\nThe DEXA-PSYCH trial has EU Trial registration number 2022-501428-45-00 with WHO universal Trial Identifier U1111-1280-7614.\nThe Trial protocol is available here in its latest version and an earlier version is presented in Rømer et al (2025)\n\n\n\nThe Statistical Analysis Plan (SAP) was archived and locked in a persistent and immutable Zenodo DOI prior to unblinding of the randomization list. The time of unblinding coincides with locking of the database and is called database lock (DBL).\n\n\n\nAll code to produce the statistical analyses is openly shared on the DEXA-PSYCH GitHub repository.\nAnalyses were programmed with dummy treatment-group identifiers, and the code was archived before unblinding. The primary analysis of the primary endpoint was independently parallel programmed by two separate statisticians.\nThe README file describes the structure and contents of the code base.\nThe Change log describes the evolution and maintenance of the code base and new releases of trial results.\n\n\n\nThe key timeline for the main trial is as follows:\n\n202X-mmm: Application for function\n202X-mmm: Approval by medical agency\n2023-01-13: First patient randomized\nyyyy-mm-dd: Last version of the protocol (version 1.4) accepted by XX and published\n2026-10-12: Day-28 visit of the last patient\n2026-10-19: Final GCP assessment\n2026-10-20: Statistical analysis plan locked in Zenodo DOI\n2026-10-21: Database locked, Statistical analysis code finalized and locked in Zenodo DOI\n2026-10-22: Randomization list received: unblinding of statisticians, principal investigator and selected sub-investigators\n2026-10-23: All Pre-specified analyses run and results archived in immutable Zenodo DOI\n2026-mm-dd: Primary publication published\n\nAs of October 2026 2 assessors remain unblined to collect 6-month follow-up data. The last follow-up data is expected to be collected March 2027."
+    "text": "The DEXA-PSYCH trial is an investigator-initiated, double-blind, randomized, placebo-controlled, parallel group superiority trial. Three-hundred participants meeting criteria for moderate-to-severe depression were be randomized in a 1:1 ratio to 1 week of either dexamethasone or placebo as add-on treatment to treatment as usual."
   },
   {
     "objectID": "index.html#trial-results",
     "href": "index.html#trial-results",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "All pre-specified and pre-programmed trial results are available in Tables, Listings and Figures (TLF) book here. (Link will contain trial results upon publication of the primary)\nFor further details see the trial results page"
+    "section": "Trial results",
+    "text": "Trial results\nAll pre-specified and pre-programmed trial results are available in Tables, Listings and Figures (TLF) book here. (Link will contain trial results upon publication of the primary)\nFor further details see the trial results page"
   },
   {
     "objectID": "index.html#comments",
@@ -31,22 +31,22 @@
     "objectID": "index.html#background",
     "href": "index.html#background",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "Depression is one of the leading causes of years lived with disability, globally. The effects of current pharmacological treatments are small-to-moderate and often delayed by weeks. Immunological disturbances have been associated with depression and meta-analyses have suggested that anti-inflammatory agents have moderate-to-large anti-depressant effects. The largest effects were reported for glucocorticoids. However, previous trials were too small to legitimize standard use of glucocorticoids as add-on treatment in depression."
+    "section": "Background",
+    "text": "Background\nDepression is one of the leading causes of years lived with disability, globally. The effects of current pharmacological treatments are small-to-moderate and often delayed by weeks. Immunological disturbances have been associated with depression and meta-analyses have suggested that anti-inflammatory agents have moderate-to-large anti-depressant effects. The largest effects were reported for glucocorticoids. However, previous trials were too small to legitimize standard use of glucocorticoids as add-on treatment in depression."
   },
   {
     "objectID": "index.html#purpose",
     "href": "index.html#purpose",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "The purpose of the DEXA-PSYCH trial was to investigate the effect and safety of short-term, oral dexamethasone compared to placebo as add-on therapy in moderate-to-severe depression."
+    "section": "Purpose",
+    "text": "Purpose\nThe purpose of the DEXA-PSYCH trial was to investigate the effect and safety of short-term, oral dexamethasone compared to placebo as add-on therapy in moderate-to-severe depression."
   },
   {
     "objectID": "index.html#protocol-and-trial-registration",
     "href": "index.html#protocol-and-trial-registration",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "The DEXA-PSYCH trial has EU Trial registration number 2022-501428-45-00 with WHO universal Trial Identifier U1111-1280-7614.\nThe Trial protocol is available here in its latest version and an earlier version is presented in Rømer et al (2025)"
+    "section": "Protocol and Trial registration",
+    "text": "Protocol and Trial registration\nThe DEXA-PSYCH trial has EU Trial registration number 2022-501428-45-00 with WHO universal Trial Identifier U1111-1280-7614.\nThe Trial protocol is available here in its latest version and an earlier version is presented in Rømer et al (2025)"
   },
   {
     "objectID": "index.html#statistical-analysis-plan-sap",
@@ -59,8 +59,8 @@
     "objectID": "index.html#analysis-code",
     "href": "index.html#analysis-code",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "All code to produce the statistical analyses is openly shared on the DEXA-PSYCH GitHub repository.\nAnalyses were programmed with dummy treatment-group identifiers, and the code was archived before unblinding. The primary analysis of the primary endpoint was independently parallel programmed by two separate statisticians.\nThe README file describes the structure and contents of the code base.\nThe Change log describes the evolution and maintenance of the code base and new releases of trial results."
+    "section": "Analysis code",
+    "text": "Analysis code\nAll code to produce the statistical analyses is openly shared on the DEXA-PSYCH GitHub repository.\nAnalyses were programmed with dummy treatment-group identifiers, and the code was archived before unblinding. The primary analysis of the primary endpoint was independently parallel programmed by two separate statisticians.\nThe README file describes the structure and contents of the code base.\nThe Change log describes the evolution and maintenance of the code base and new releases of trial results."
   },
   {
     "objectID": "index.html#trial-conduct-timeline",
@@ -74,21 +74,21 @@
     "href": "results.html",
     "title": "Trial Results",
     "section": "",
-    "text": "The code in this repository produces two Tables, Listings, and Figures (TLF) books; a primary publication version and a clinical trial report (CTR) version. All outcomes are reported from day 0 to day 28. Long term follow-up (until 6 months after baseline) will be presented separately.\n\nPrimary Publication: This version documents all summaries and statistical analyses for safety and efficacy endpoints presented in the primary publication as documented in the SAP and trial protocol. This version is archived in a Zenodo DOI here.\nClinical Trial Protocol (CTR): This version includes all content reported in the primary publication version but also presents results for additional secondary outcomes. Contents for the secondary outcomes will be released upon publication of secondary papers presenting the additional secondary outcomes. This version of the TLF-book is archived in a Zenodo DOI here.\n\nThe primary publication TLF-book is available here although it is password-protected for reviewer access until the primary publication is published."
+    "text": "All outcomes are reported from day 0 to day 28. Long term follow-up (until 6 months after baseline) will be presented separately.\n\nPrimary Publication: This version documents all summaries and statistical analyses for safety and efficacy endpoints presented in the primary publication as documented in the SAP and trial protocol. This version is archived in a Zenodo DOI and available here in its latest version. The results will be released and the links become active upon publication of the primary paper. Password-protected for reviewer access is provided here until the primary publication is published\nClinical Trial Protocol (CTR): This version includes all content reported in the primary publication version but also presents results for additional secondary outcomes. Contents for the secondary outcomes will be released upon publication of secondary papers presenting the additional secondary outcomes. This version of the TLF-book is archived in a Zenodo DOI and will be released upon publication of the secondary outcomes."
   },
   {
     "objectID": "index.html#statistical-analysis-plan",
     "href": "index.html#statistical-analysis-plan",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "The Statistical Analysis Plan (SAP) was archived and locked in a persistent and immutable Zenodo DOI prior to unblinding of the randomization list. The time of unblinding coincides with locking of the database and is called database lock (DBL)."
+    "section": "Statistical Analysis Plan",
+    "text": "Statistical Analysis Plan\nThe Statistical Analysis Plan (SAP) was archived and locked in a persistent and immutable Zenodo DOI prior to unblinding of the randomization list. The time of unblinding coincides with locking of the database and is called database lock (DBL)."
   },
   {
     "objectID": "index.html#publications",
     "href": "index.html#publications",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "The primary publication of the DEXA-PSYCH trial is available here (Link will go live upon publication of the primary paper.) For more information on publications see here."
+    "section": "Publications",
+    "text": "Publications\nThe primary publication of the DEXA-PSYCH trial is available here (Link will go live upon publication of the primary paper.) For more information on publications see here."
   },
   {
     "objectID": "index.html#timeline",
@@ -102,7 +102,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The DEXA-PSYCH trial was conducted at the Copenhagen Research Centre for Biological and Precision Psychiatry, Mental Health Centre Copenhagen, Copenhagen University Hospital—Bispebjerg and Frederiksberg, Copenhagen, Denmark.\nThe trial was lead by sponsor and principal investigator Michael Eriksen Benros"
+    "text": "The DEXA-PSYCH trial was conducted at the Copenhagen Research Centre for Biological and Precision Psychiatry, Mental Health Centre Copenhagen, Copenhagen University Hospital—Bispebjerg and Frederiksberg, Copenhagen, Denmark.\nFind us on GitHub and LinkedIn.\nThe trial was lead by sponsor and principal investigator Michael Eriksen Benros."
   },
   {
     "objectID": "about.html#the-dexa-psych-team",
@@ -129,8 +129,8 @@
     "objectID": "index.html#status",
     "href": "index.html#status",
     "title": "The DEXA-PSYCH trial",
-    "section": "",
-    "text": "Per date: 2026-11-02\n\nEnrollment: Done. 300 participants randomized.\nCompletion: Main trial (up to day 28 visit) is complete. Six-month follow-up is on-going.\n\nFor further details, see the timeline."
+    "section": "Status",
+    "text": "Status\nPer date: 2026-11-02\n\nEnrollment: Done. 300 participants randomized.\nCompletion: Main trial (up to day 28 visit) is complete. Six-month follow-up is on-going.\n\nFor further details, see the timeline."
   },
   {
     "objectID": "publications.html",
@@ -138,5 +138,61 @@
     "title": "Publications",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#sec-timeline",
+    "href": "index.html#sec-timeline",
+    "title": "The DEXA-PSYCH trial",
+    "section": "Timeline",
+    "text": "Timeline\nThe key timeline for the main trial is as follows:\n\n202X-mmm: Application for function\n202X-mmm: Approval by medical agency\n2023-01-13: First patient randomized\nyyyy-mm-dd: Last version of the protocol (version 1.4) accepted by XX and published\n2026-10-12: Day-28 visit of the last patient\n2026-10-19: Final GCP assessment\n2026-10-20: Statistical analysis plan locked in Zenodo DOI\n2026-10-21: Database locked, Statistical analysis code finalized and locked in Zenodo DOI\n2026-10-22: Randomization list received: unblinding of statisticians, principal investigator and selected sub-investigators\n2026-10-23: All Pre-specified analyses run and results archived in Zenodo DOI and post-unblinding code archived in Zenodo DOI.\n2026-mm-dd: Primary publication published\n\nAs of October 2026 two assessors remain unblinded to collect 6-month follow-up data. The last follow-up data is expected to be collected March 2027.\nA Zenodo archive is a time-stamped, and immutable snapshot of a research output (such as software, data, or publications) stored in Zenodo and assigned a DOI (Digital Object Identifier) for permanent reference."
+  },
+  {
+    "objectID": "publications/protocol-paper-2025.html",
+    "href": "publications/protocol-paper-2025.html",
+    "title": "The DEXA-PSYCH Study—dexamethasone for moderate-to-severe depression: study protocol for a double-blind, randomized, parallel-group, placebo-controlled trial",
+    "section": "",
+    "text": "Read the paper (open access) Trial registration"
+  },
+  {
+    "objectID": "publications/protocol-paper-2025.html#abstract",
+    "href": "publications/protocol-paper-2025.html#abstract",
+    "title": "The DEXA-PSYCH Study—dexamethasone for moderate-to-severe depression: study protocol for a double-blind, randomized, parallel-group, placebo-controlled trial",
+    "section": "Abstract",
+    "text": "Abstract\n\nBackground\nGlobally, depression represents one of the leading causes of years lived with disability. The effects of current pharmacological treatments are small-to-moderate and often delayed by weeks. Immunological disturbances have been associated with depression and meta-analyses have suggested that anti-inflammatory agents have moderate-to-large anti-depressant effects. The largest effects were reported for glucocorticoids. However, previous trials were too small to legitimize standard use of glucocorticoids as add-on treatment in depression. The purpose of the DEXA-PSYCH study is to investigate the effect and safety of short-term, oral dexamethasone compared to placebo as add-on therapy in moderate-to-severe depression.\n\n\nMethods\nThe DEXA-PSYCH trial is an investigator-initiated, double-blind, randomized, placebo-controlled, parallel-group superiority trial. Three-hundred participants meeting criteria for moderate-to-severe depression will be randomized in a 1:1 ratio to 1 week of either dexamethasone (4 mg/day for 4 days, subsequently 2 mg/day for 3 days) or placebo as add-on treatment to treatment as usual. Both in- and out-patients are eligible. Exclusion criteria include, but are not limited to, psychotic disorders, bipolar disorder, and diabetes. The primary outcome is change from baseline in Montgomery-Asberg Depression Rating Scale (MADRS) score on day 7 and will be analyzed through a Mixed Model for Repeated Measurements (MMRM) in an intention-to-treat analysis. Key secondary outcomes include response and remission rates, efficacy 3 weeks after the intervention, effects on quality of life, and safety outcomes. Other secondary outcomes include overall functioning, fatigue, anxiety, labor-market affiliation, and associations between inflammatory biomarkers and treatment response.\n\n\nDiscussion\nThe DEXA-PSYCH trial represents the largest trial of its kind globally. If the trial confirms findings from previous, smaller studies, short-term oral dexamethasone could become an attractive augmentation strategy if acute anti-depressant effects are warranted. Dexamethasone is an off-patent, well-known drug readily repurposed for new indications.\n\n\nTrial registration\nEU Clinical Trials Number 2022–501428-45–00, Registered 25th of July 2022 in the EU Clinical Trials Information System (https://euclinicaltrials.eu/ctis-public/view/2022-501428-45-00?lang=en). WHO Universal Trial Identifier U1111-1280–7614."
+  },
+  {
+    "objectID": "publications/publications.html",
+    "href": "publications/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "In Preparation\n\n\n\n\n\nTroels Boldt Rømer, Camilla Gøtzsche Frederiksen, Pernille Bølling Hansen, Eva Nina Sparre Wandall, Sille Holst, Rune Haubo B Christensen, Michael Eriksen Benros\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/publications.html#protocol",
+    "href": "publications/publications.html#protocol",
+    "title": "Publications",
+    "section": "Protocol",
+    "text": "Protocol\n\n\n\n\n\nThe DEXA-PSYCH Study—dexamethasone for moderate-to-severe depression: study protocol for a double-blind, randomized, parallel-group, placebo-controlled trial\n\n\nTrials (2025) 26:303, doi: 10.1186/s13063-025-08989-2\n\n\n\n\n\n2025\n\n\nTroels Boldt Rømer, Camilla Gøtzsche Frederiksen, Pernille Bølling Hansen, Rune Haubo Bojesen Christensen, Michael Eriksen Benros\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/publications.html#primary",
+    "href": "publications/publications.html#primary",
+    "title": "Publications",
+    "section": "",
+    "text": "In Preparation\n\n\n\n\n\nTroels Boldt Rømer, Camilla Gøtzsche Frederiksen, Pernille Bølling Hansen, Eva Nina Sparre Wandall, Sille Holst, Rune Haubo B Christensen, Michael Eriksen Benros\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/primary-paper-2026.html",
+    "href": "publications/primary-paper-2026.html",
+    "title": "Short-Course Dexamethasone for Moderate-to-Severe Depression",
+    "section": "",
+    "text": "Trial registration"
+  },
+  {
+    "objectID": "publications/primary-paper-2026.html#abstract",
+    "href": "publications/primary-paper-2026.html#abstract",
+    "title": "Short-Course Dexamethasone for Moderate-to-Severe Depression",
+    "section": "Abstract",
+    "text": "Abstract\nPending…"
   }
 ]

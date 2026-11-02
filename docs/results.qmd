@@ -3,13 +3,12 @@ title: "Trial Results"
 ---
 
 
-The code in this repository produces two Tables, Listings, and Figures (TLF) books; a primary publication version and a clinical trial report (CTR) version. 
 All outcomes are reported from day 0 to day 28. Long term follow-up (until 6 months after baseline) will be presented separately.
 
 1. Primary Publication: 
-This version documents all summaries and statistical analyses for safety and efficacy endpoints presented in the primary publication as documented in the SAP and trial protocol. This version is archived in a Zenodo DOI [here](`r tlf_pp_doi`).
-1. Clinical Trial Protocol (CTR): This version includes all content reported in the primary publication version but also presents results for additional secondary outcomes. Contents for the secondary outcomes will be released upon publication of secondary papers presenting the additional secondary outcomes. This version of the TLF-book is archived in a Zenodo DOI [here](`r tlf_ctr_doi`).
+This version documents all summaries and statistical analyses for safety and efficacy endpoints presented in the primary publication as documented in the SAP and trial protocol. This version is archived in a [Zenodo DOI](https://doi.org/10.5281/zenodo.23350243) and available [here](tlf-book-pp/latest/index.html) in its latest version. The results will be released and the links become active upon publication of the primary paper. Password-protected for reviewer access is provided [here](https://dexa-psych.netlify.app/) until the primary publication is published
 
-The primary publication TLF-book is available [here](https://dexa-psych.netlify.app/) although it is password-protected for reviewer access until the primary publication is published.
+1. Clinical Trial Protocol (CTR): This version includes all content reported in the primary publication version but also presents results for additional secondary outcomes. Contents for the secondary outcomes will be released upon publication of secondary papers presenting the additional secondary outcomes. This version of the TLF-book is archived in a [Zenodo DOI](https://doi.org/10.5281/zenodo.23349388) and will be released upon publication of the secondary outcomes.
+
 
 
