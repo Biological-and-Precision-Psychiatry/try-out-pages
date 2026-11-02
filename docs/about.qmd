@@ -1,0 +1,74 @@
+---
+title: "About"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+The DEXA-PSYCH trial was conducted at the [Copenhagen Research Centre for Biological and Precision Psychiatry](https://research.regionh.dk/en/organisations/copenhagen-research-centre-for-biological-and-precision-psychiatr/), [Mental Health Centre Copenhagen](https://research.regionh.dk/en/organisations/psykiatrisk-center-k%C3%B8benhavn-bfh/organisations/), [Copenhagen University Hospital](https://research.regionh.dk/en/)---Bispebjerg and Frederiksberg, Copenhagen, Denmark.
+
+The trial was lead by sponsor and principal investigator [Michael Eriksen Benros](https://research.regionh.dk/en/persons/michael-eriksen-benros/)
+
+
+## The DEXA-PSYCH team
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| output: asis
+team <- yaml::read_yaml("team.yml")
+
+# label, URL prefix, URL suffix (the value from team.yml goes in between)
+templates <- list(
+  orcid    = c("ORCID",          "https://orcid.org/", ""),
+  github   = c("GitHub",         "https://github.com/", ""),
+  scholar  = c("Google Scholar", "https://scholar.google.com/citations?user=", ""),
+  pubmed   = c("PubMed",         "https://pubmed.ncbi.nlm.nih.gov/?term=", "%5BAuthor%5D"),
+  linkedin = c("LinkedIn",       "https://www.linkedin.com/in/", ""),
+  web      = c("Website",        "", "")
+)
+
+make_link <- function(key, value) {
+  t <- templates[[key]]
+  if (key == "pubmed") value <- gsub(" ", "+", value)
+  paste0('<a href="', t[2], value, t[3], '">', t[1], '</a>')
+}
+
+card <- function(p) {
+  links <- vapply(names(p$links),
+                  function(k) make_link(k, p$links[[k]]),
+                  character(1))
+  affiliation <- if (is.null(p$affiliation)) "" else p$affiliation
+  paste0(
+    '<div class="col"><div class="card h-100"><div class="card-body">\n',
+    '<h5 class="card-title">', p$name, '</h5>\n',
+    '<p class="card-subtitle text-muted">', p$role, '</p>\n',
+    '<p class="card-text small">', affiliation, '</p>\n',
+    '<p class="card-text small">', paste(links, collapse = " · "), '</p>\n',
+    '</div></div></div>'
+  )
+}
+
+cat('<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">',
+    vapply(team, card, character(1)),
+    '</div>', sep = "\n")
+```
+
+
+## Funding
+
+The DEXA-PSYCH trial was funded by 
+
+- An unrestricted research grant for investigator-initiated trials with a non-commercial focus awarded by the Novo Nordisk Foundation (grant number NNF21OC0072020)
+-  Mental Health Services in the Capital Region of Denmark
+
+The funders had no role in the design or conduct of the trial, in the analysis or interpretation of data, or in the communication of trial results.
+
+
+## Approval
+
+The conduct of the trial was approved by the Danish Medicines Agency, the Medical Research Ethics Committee, and the Capital Region Knowledge Center for Data Compliance. 
+
+All participants provided written informed consent. 
+
