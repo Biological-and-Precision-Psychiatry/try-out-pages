@@ -12,19 +12,20 @@ website:
     background: primary
     search: false
     left:
-      - text: "Home"
-        href: index.qmd
       - text: "Trial results"
         href: results.qmd
       - text: "Publications"
         href: publications/publications.qmd
       - text: "About"
         href: about.qmd
-      - text: "More"
-        menu:
-          - index.qmd
-          - about.qmd
-          
+  page-footer:
+    left: "Website by Rune Haubo B Christensen"
+    right:
+      - icon: github
+        href: https://github.com/Biological-and-Precision-Psychiatry
+      - icon: linkedin
+        href: https://dk.linkedin.com/company/copenhagen-biological-and-precision-psychiatry
+
 format:
   html:
     theme:

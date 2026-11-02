@@ -1,40 +1,40 @@
-- name: Troels Boldt Rømer---MD, PhD-Researcher
-  role: Sub-Investigator
-  affiliation: Copenhagen Research Centre for Biological and Precision Psychiatry
+- name: Troels Boldt Rømer
+  role: MD, PhD-Researcher
+  affiliation: Sub-Investigator
   links:
     orcid: 0000-0002-0832-2667
     github: TroelsRomer
     scholar: Axf2x-EAAAAJ&hl
 
-- name: Camilla Goetzsche Frederiksen---MD, PhD-Researcher
-  role: Sub-Investigator
-  affiliation: Copenhagen Research Centre for Biological and Precision Psychiatry
+- name: Camilla Goetzsche Frederiksen
+  role: MD, PhD-Researcher
+  affiliation: Sub-Investigator
   links:
     orcid: 0000-0002-4475-7617
 
-- name: Pernille Bølling Hansen---MD, PhD-Researcher
-  role: Sub-Investigator
-  affiliation:  Copenhagen Research Centre for Biological and Precision Psychiatry
+- name: Pernille Bølling Hansen
+  role: MD
+  affiliation: Sub-Investigator
 
-- name: Eva Nina Sparre Wandall---MSc, PhD-Researcher
-  role: Statistician
-  affiliation: Copenhagen Research Centre for Biological and Precision Psychiatry
+- name: Eva Nina Sparre Wandall
+  role: MSc, PhD-Researcher
+  affiliation: Statistician
   links:
     orcid: 0009-0008-1745-6027
     github: evaninawandall
     scholar: a-APcdoAAAAJ&hl
 
-- name: Rune Haubo B Christensen---MSc, PhD
-  role: Trial statistician
-  affiliation: Copenhagen Research Centre for Biological and Precision Psychiatry
+- name: Rune Haubo B Christensen
+  role: MSc, PhD
+  affiliation: Trial statistician
   links:
     orcid: 0000-0002-4494-3399
     github: runehaubo
     scholar: Bdq1FoIAAAAJ&hl
     
-- name: Michael Eriksen Benros---Professor, Head of Research, Chief Physician, MD, PhD
-  role: Sponsor & Principal Investigator
-  affiliation: Copenhagen Research Centre for Biological and Precision Psychiatry
+- name: Michael Eriksen Benros
+  role: Professor, Head of Research, Chief Physician, MD, PhD
+  affiliation: Sponsor & Principal Investigator
   links:
     orcid: 0000-0003-4939-9465
     github: MichaelBenros
