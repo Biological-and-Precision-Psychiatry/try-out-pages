@@ -56,6 +56,10 @@ The DEXA-PSYCH trial is an investigator-initiated, double-blind, randomized, pla
 group superiority trial. Three-hundred participants meeting criteria for moderate-to-severe depression were be 
 randomized in a 1:1 ratio to 1 week of either dexamethasone or placebo as add-on treatment to treatment as usual.
 
+**Sponsor Institution:** [Copenhagen Research Centre for Biological and Precision Psychiatry](https://research.regionh.dk/en/organisations/copenhagen-research-centre-for-biological-and-precision-psychiatr/), Mental Health Centre Copenhagen, Copenhagen University Hospital---Bispebjerg and Frederiksberg, Copenhagen, Denmark.
+
+**Sponsor and Principal Investigator:**  [Michael Eriksen Benros](about.qmd#sponsor-and-principal-investigator).
+
 ## Status
 
 Per date: 2026-11-02
@@ -82,7 +86,7 @@ The purpose of the DEXA-PSYCH trial was to investigate the effect and safety of 
 
 All pre-specified and pre-programmed trial results are available in Tables, Listings and Figures (TLF) book [here](tlf-book-pp/latest/index.html). (Link will contain trial results upon publication of the primary)
 
-For further details see the [trial results page](/results.qmd)
+For further details see the [trial results page](/results.qmd).
 
 
 ## Publications
@@ -94,7 +98,7 @@ The primary publication of the DEXA-PSYCH trial is available [here]() (Link will
 
 The DEXA-PSYCH trial has EU Trial registration number [2022-501428-45-00](https://euclinicaltrials.eu/ctis-public/view/2022-501428-45-00?lang=en) with WHO universal Trial Identifier U1111-1280-7614.
 
-The Trial protocol is available [here](https://euclinicaltrials.eu/ctis-public/view/2022-501428-45-00?lang=en) in its latest version and an earlier version is presented in [Rømer et al (2025)](https://doi.org/10.1186/s13063-025-08989-2)
+The Trial protocol is available [here](https://euclinicaltrials.eu/ctis-public/view/2022-501428-45-00?lang=en) in its latest version and an earlier version is presented in [Rømer et al (2025)](https://doi.org/10.1186/s13063-025-08989-2).
 
 
 ## Statistical Analysis Plan

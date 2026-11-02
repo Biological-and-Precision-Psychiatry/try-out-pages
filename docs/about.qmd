@@ -11,19 +11,25 @@ Find us on [GitHub](https://github.com/Biological-and-Precision-Psychiatry) and 
 
 The trial also has a [Danish website](https://www.psykiatri-regionh.dk/dexa-psych/Sider/default.aspx) with information for potential participants, medical practitioners and the danish public.
 
-
-The trial was lead by sponsor and principal investigator [Michael Eriksen Benros](https://research.regionh.dk/en/persons/michael-eriksen-benros/).
-
+<!-- The trial was lead by sponsor and principal investigator [Michael Eriksen Benros](https://research.regionh.dk/en/persons/michael-eriksen-benros/). -->
 
 
 ## The DEXA-PSYCH team
 
+
 ```{r}
-#| echo: false
-#| message: false
-#| warning: false
-#| output: asis
-team <- yaml::read_yaml("team.yml")
+#| label: setup_about
+#| include: false
+
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+```
+
+
+```{r}
+#| include: false
+
+team <- yaml::read_yaml("docs/team.yml")
+cats <- sapply(team, "[[", "category")
 
 # label, URL prefix, URL suffix (the value from team.yml goes in between)
 templates <- list(
@@ -55,16 +61,54 @@ card <- function(p) {
     '</div></div></div>'
   )
 }
+```
 
+<!-- **Sponsor and Principal Investigator:**  [Michael Eriksen Benros](https://research.regionh.dk/en/persons/michael-eriksen-benros/) -->
+
+### Sponsor and Principal Investigator
+
+```{r}
+#| echo: false
+#| output: asis
 cat('<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">',
-    vapply(team, card, character(1)),
+    vapply(team[cats == "sponsor"], card, character(1)),
+    '</div>', sep = "\n")
+```
+
+### MDs and PhD-Students on the Project
+
+```{r}
+#| echo: false
+#| output: asis
+cat('<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">',
+    vapply(team[cats == "md_and_phd"], card, character(1)),
+    '</div>', sep = "\n")
+```
+
+### Statisticians
+
+```{r}
+#| echo: false
+#| output: asis
+cat('<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">',
+    vapply(team[cats == "statisticians"], card, character(1)),
+    '</div>', sep = "\n")
+```
+
+### Research Nurses
+
+```{r}
+#| echo: false
+#| output: asis
+cat('<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">',
+    vapply(team[cats == "nurses"], card, character(1)),
     '</div>', sep = "\n")
 ```
 
 
 ## Funding
 
-The DEXA-PSYCH trial was funded by 
+The DEXA-PSYCH trial was funded by the following unrestricted research grants to Michael Eriksen Benros: 
 
 - An unrestricted research grant for investigator-initiated trials with a non-commercial focus awarded by the Novo Nordisk Foundation (grant number NNF21OC0072020)
 -  Mental Health Services in the Capital Region of Denmark
