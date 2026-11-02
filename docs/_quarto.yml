@@ -12,6 +12,8 @@ website:
     background: primary
     search: false
     left:
+      - text: "Home"
+        href: index.qmd
       - text: "Trial results"
         href: results.qmd
       - text: "Publications"

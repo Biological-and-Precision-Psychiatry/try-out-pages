@@ -7,7 +7,9 @@ editor_options:
 
 The DEXA-PSYCH trial was conducted at the [Copenhagen Research Centre for Biological and Precision Psychiatry](https://research.regionh.dk/en/organisations/copenhagen-research-centre-for-biological-and-precision-psychiatr/), [Mental Health Centre Copenhagen](https://research.regionh.dk/en/organisations/psykiatrisk-center-k%C3%B8benhavn-bfh/organisations/), [Copenhagen University Hospital](https://research.regionh.dk/en/)---Bispebjerg and Frederiksberg, Copenhagen, Denmark.
 
-Find us on [GitHub](https://github.com/Biological-and-Precision-Psychiatry) and [LinkedIn](https://dk.linkedin.com/company/copenhagen-biological-and-precision-psychiatry).
+Find us on [GitHub](https://github.com/Biological-and-Precision-Psychiatry) and [LinkedIn](https://dk.linkedin.com/company/copenhagen-biological-and-precision-psychiatry). 
+
+The trial also has a [Danish website](https://www.psykiatri-regionh.dk/dexa-psych/Sider/default.aspx) with information for potential participants, medical practitioners and the danish public.
 
 
 The trial was lead by sponsor and principal investigator [Michael Eriksen Benros](https://research.regionh.dk/en/persons/michael-eriksen-benros/).
